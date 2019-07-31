@@ -12,3 +12,14 @@ Template: storefront
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
 }
+
+.grid {
+  list-style: none;
+  margin: 0;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 32%;
+  margin-bottom: 10px;
+}

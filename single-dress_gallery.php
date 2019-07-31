@@ -17,14 +17,15 @@ get_header(); ?>
 					do_action( 'storefront_single_post_before' );
 
 					$images = get_field('images');
-					$size = 'medium'; // (thumbnail, medium, large, full or custom size)
+					$size = 'large'; // (thumbnail, medium, large, full or custom size)
 					
 					if( $images ) : 
 			?>
 
-				<ul>
+				<ul class="grid">
+					<div class="grid-sizer"></div>
 					<?php foreach( $images as $image ): ?>
-						<li>
+						<li class="grid-item">
 							<?php echo wp_get_attachment_image( $image['ID'], $size ); ?>
 						</li>
 					<?php endforeach; ?>
