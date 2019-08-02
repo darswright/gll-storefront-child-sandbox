@@ -14,3 +14,4 @@ Install Homebrew from [here](https://brew.sh/). Then install Git, Node and NPM b
 ## Instructions for use
 
 1. Clone/download this repo into your local WordPress' themes/ directory
+2. In your terminal, cd into the 'src/' directory and run `npm i` to install webpack and dependancies
