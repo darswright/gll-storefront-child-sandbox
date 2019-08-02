@@ -9,7 +9,9 @@ The following software needs to be installed on your machine to use this child t
 - Git - Install using Homebrew
 - Node + NPM - Install using NVM via Homebrew
 
-Install Homebrew from [here](https://brew.sh/). Then install Git, Node and NPM by running this command in your terminal - `brew install git nvm`
+Install Homebrew from [here](https://brew.sh/). Then install Git, Node and NPM by running this command in your terminal - `brew install git nvm`.
+
+After they have been installed follow the instructions in the terminal to add NVM to your \$PATH and run `nvm install 10 -lts` to install Node and NPM.
 
 ## Instructions for use
 
