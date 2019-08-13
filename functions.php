@@ -8,5 +8,5 @@ require_once( __DIR__ . '/inc/theme-check.php');
 // require_once( __DIR__ . '/inc/custom-fields.php');
 
 require_once( __DIR__ . '/inc/enqueue-scripts.php');
-require_once( __DIR__ . '/inc/load-more.php');
+// require_once( __DIR__ . '/inc/load-more.php'); // Removed as now using Smush plugin for lazy loading
 require_once( __DIR__ . '/inc/post-filter.php');

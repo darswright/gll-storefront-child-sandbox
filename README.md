@@ -9,7 +9,7 @@ The following software needs to be installed on your machine to use this child t
 - Git - Install using Homebrew
 - Node + NPM - Install using NVM via Homebrew
 
-Install Homebrew from [here](https://brew.sh/). Then install Git, Node and NPM by running this command in your terminal - `brew install git nvm`.
+Install Homebrew from [here](https://brew.sh/). Then install Git and Node Version Manager (NVM) by running this command in your terminal - `brew install git nvm`.
 
 After they have been installed follow the instructions in the terminal to add NVM to your \$PATH and run `nvm install 10 -lts` to install Node and NPM.
 
@@ -17,3 +17,5 @@ After they have been installed follow the instructions in the terminal to add NV
 
 1. Clone/download this repo into your local WordPress' themes/ directory
 2. In your terminal, cd into the 'src/' directory of the child theme and run `npm i` to install Webpack and dependancies
+3. Update `proxyTarget:` property in `src/compiler/config.js` to match your local site URL
+4. Webpack commands are `npm run serve` to spin up a localhost for development and `npm run build` for bundling everything for production
