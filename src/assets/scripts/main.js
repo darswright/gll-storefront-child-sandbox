@@ -1,2 +1,2 @@
-import "./loadmore";
+//import "./loadmore";
 import "./jquery-inits";
