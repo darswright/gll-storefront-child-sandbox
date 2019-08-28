@@ -1,3 +1,9 @@
+@import "inc/variables";
+@import "inc/fonts";
+@import "inc/base";
+@import "inc/header";
+
+// Masonry styles
 .gallery-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

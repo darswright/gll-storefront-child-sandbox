@@ -1,0 +1,116 @@
+.site-header {
+  padding-top: 0;
+  background: none;
+  border: none;
+
+  @media (max-width: 768px) {
+    .col-full {
+      margin: 0;
+    }
+  }
+}
+
+.site-header a {
+  font-family: "Stackers", sans-serif;
+}
+
+// QuadMenu Style Mods
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item .quadmenu-item-content {
+  padding: 8px;
+}
+
+#quadmenu.quadmenu-default_theme {
+  border-bottom: solid 1px rgba($primary, 0.1);
+}
+
+.quadmenu-sticky-wrapper #quadmenu {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quadmenu .quadmenu-container {
+  max-width: 1200px;
+}
+
+#quadmenu.quadmenu-default_theme
+  .quadmenu-navbar-nav
+  .quadmenu-dropdown-menu
+  .quadmenu-title {
+  font-family: "Didot", serif;
+  font-size: 1.2rem;
+}
+
+#quadmenu .quadmenu-navbar-nav li.quadmenu-item .quadmenu-icon {
+  font-size: 18px !important;
+}
+
+.widget_nav_menu ul li {
+  a {
+    text-transform: uppercase !important;
+
+    &:hover {
+      text-decoration: underline !important;
+    }
+  }
+
+  &::before {
+    content: "";
+  }
+}
+
+#quadmenu .quadmenu-navbar-brand > img {
+  max-height: 40px !important;
+}
+
+#quadmenu.quadmenu-default_theme .quadmenu-navbar-brand > img {
+  height: auto !important;
+}
+
+#quadmenu .woocommerce-mini-cart__buttons .wc-forward::after {
+  content: "";
+  margin: 0;
+}
+
+// Advanced Woo Search Style Mods
+.aws-container .aws-search-field {
+  padding: 6px 15px;
+  line-height: 40px;
+  font-size: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.75);
+  color: #002942;
+  font-family: "Open Sans", sans-serif;
+
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  &::placeholder {
+    color: $primary;
+  }
+}
+
+.aws_result_content {
+  font-family: "Open Sans", sans-serif;
+
+  .aws_result_title {
+    color: $primary;
+  }
+}
+
+.aws-search-result ul li {
+  border-bottom: 1px solid rgba($primary, 0.1);
+}
+
+.aws-search-result .aws_result_item:hover,
+.aws-search-result .aws_result_item.hovered {
+  background: rgba($primary, 0.05);
+}
+
+.aws-search-result .aws_result_title {
+  text-transform: uppercase;
+}
+
+.aws-search-result .aws_result_price {
+  color: $primary;
+}
